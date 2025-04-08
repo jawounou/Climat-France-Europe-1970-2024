@@ -1,11 +1,12 @@
+index_content = """
 # 🌍 Évolution climatique France-Europe (1970–2024)
 
 Bienvenue sur cette page de présentation du projet TP3 sur l’impact du changement climatique en France.
 
 ## 📁 Données disponibles
-- [📄 Jeu de données fusionné (CSV)](data/donnees_fusionnees_france.csv)
-- [📓 Notebook Jupyter complet](notebooks/TP3_AnalyseClimat_FR_EU.ipynb)
-- [📊 Visualisations PNG](figures/)
+- [📄 Jeu de données fusionné (CSV)](./data/donnees_fusionnees_france.csv)
+- [📓 Notebook Jupyter complet](./notebooks/TP3_AnalyseClimat_FR_EU.ipynb)
+- [📊 Visualisations PNG](./figures/)
 
 ## 📚 Objectif
 Ce projet vise à étudier les corrélations entre les anomalies de température et les catastrophes naturelles en France, à travers un traitement exploratoire, spatial et prédictif des données ouvertes.
@@ -19,6 +20,12 @@ Ce projet vise à étudier les corrélations entre les anomalies de température
 ## 🔎 Fiche technique
 - Format : CSV, HTML, Notebook
 - Licence : ODC-BY
-- Auteur : Jennifer AWOUNOU  – ESAIP
+- Auteur : Jennifer AWOUNOU – ESAIP
 
-> Pour plus de détails, consultez la [fiche de métadonnées](metadata.md)
+> Pour plus de détails, consultez la [fiche de métadonnées](./metadata.md)
+"""
+
+with open("/mnt/data/index.md", "w") as f:
+    f.write(index_content)
+
+"/mnt/data/metadata.md", "/mnt/data/index.md"
