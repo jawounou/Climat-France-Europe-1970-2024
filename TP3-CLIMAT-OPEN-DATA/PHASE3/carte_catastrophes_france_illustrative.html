@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_65f2a417569808f3e3b87b5e8f532d73 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_65f2a417569808f3e3b87b5e8f532d73" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_65f2a417569808f3e3b87b5e8f532d73 = L.map(
+                "map_65f2a417569808f3e3b87b5e8f532d73",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1bdf5fc55d9ed54ea84ec1bee9f28c12 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1bdf5fc55d9ed54ea84ec1bee9f28c12.addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+            var circle_marker_5b3890857ec6fa5b423a74f0081d39ef = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_1cc6850633bb8a75b784181d8dff651e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9da5e2be799db667a0166af7df4ee45 = $(`<div id="html_a9da5e2be799db667a0166af7df4ee45" style="width: 100.0%; height: 100.0%;">Année : 1949<br>Événements : 1.0<br>Morts : 80</div>`)[0];
+                popup_1cc6850633bb8a75b784181d8dff651e.setContent(html_a9da5e2be799db667a0166af7df4ee45);
+            
+        
+
+        circle_marker_5b3890857ec6fa5b423a74f0081d39ef.bindPopup(popup_1cc6850633bb8a75b784181d8dff651e)
+        ;
+
+        
+    
+    
+            var circle_marker_17bfff3563e1b93541934ac71ea6359f = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_6a280e76c0824f55c386d6563c323183 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48814e0152186d6104f1a8fd34a6c17b = $(`<div id="html_48814e0152186d6104f1a8fd34a6c17b" style="width: 100.0%; height: 100.0%;">Année : 1982<br>Événements : 1.0<br>Morts : 2</div>`)[0];
+                popup_6a280e76c0824f55c386d6563c323183.setContent(html_48814e0152186d6104f1a8fd34a6c17b);
+            
+        
+
+        circle_marker_17bfff3563e1b93541934ac71ea6359f.bindPopup(popup_6a280e76c0824f55c386d6563c323183)
+        ;
+
+        
+    
+    
+            var circle_marker_bc79e682eea704d975f08a1066b01773 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_176c375f816064b8cb3670c03a11a0e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69c1f9a24618472d159ce8de6f1eb9d0 = $(`<div id="html_69c1f9a24618472d159ce8de6f1eb9d0" style="width: 100.0%; height: 100.0%;">Année : 1983<br>Événements : 1.0<br>Morts : 12</div>`)[0];
+                popup_176c375f816064b8cb3670c03a11a0e7.setContent(html_69c1f9a24618472d159ce8de6f1eb9d0);
+            
+        
+
+        circle_marker_bc79e682eea704d975f08a1066b01773.bindPopup(popup_176c375f816064b8cb3670c03a11a0e7)
+        ;
+
+        
+    
+    
+            var circle_marker_e87044bd59bda529978f3a1c520ede92 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_30c76bc9dd33e86082853324f08b14b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10dc564a1539df764c5ab6648349846d = $(`<div id="html_10dc564a1539df764c5ab6648349846d" style="width: 100.0%; height: 100.0%;">Année : 1984<br>Événements : 2.0<br>Morts : 0</div>`)[0];
+                popup_30c76bc9dd33e86082853324f08b14b2.setContent(html_10dc564a1539df764c5ab6648349846d);
+            
+        
+
+        circle_marker_e87044bd59bda529978f3a1c520ede92.bindPopup(popup_30c76bc9dd33e86082853324f08b14b2)
+        ;
+
+        
+    
+    
+            var circle_marker_4f7d53757787794016299062dcc381c3 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_8b242da31edd5d1000e15c3046ffc81a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53c3fd23e517f1ff13178297bf00f13c = $(`<div id="html_53c3fd23e517f1ff13178297bf00f13c" style="width: 100.0%; height: 100.0%;">Année : 1985<br>Événements : 1.0<br>Morts : 6</div>`)[0];
+                popup_8b242da31edd5d1000e15c3046ffc81a.setContent(html_53c3fd23e517f1ff13178297bf00f13c);
+            
+        
+
+        circle_marker_4f7d53757787794016299062dcc381c3.bindPopup(popup_8b242da31edd5d1000e15c3046ffc81a)
+        ;
+
+        
+    
+    
+            var circle_marker_300c050c57ccd611f4c47ec472dd3dc6 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_61578e178ae5db3486697674191cd7bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ef05cd16fa41a38affdcf4e53c305b7 = $(`<div id="html_6ef05cd16fa41a38affdcf4e53c305b7" style="width: 100.0%; height: 100.0%;">Année : 1986<br>Événements : 1.0<br>Morts : 5</div>`)[0];
+                popup_61578e178ae5db3486697674191cd7bb.setContent(html_6ef05cd16fa41a38affdcf4e53c305b7);
+            
+        
+
+        circle_marker_300c050c57ccd611f4c47ec472dd3dc6.bindPopup(popup_61578e178ae5db3486697674191cd7bb)
+        ;
+
+        
+    
+    
+            var circle_marker_aa83dd49000790af74c549d5a754fe69 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_93a46a089d6152f2a0e10d9dad6fe4e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e70267be62175f74189478c08b04044f = $(`<div id="html_e70267be62175f74189478c08b04044f" style="width: 100.0%; height: 100.0%;">Année : 1989<br>Événements : 1.0<br>Morts : 0</div>`)[0];
+                popup_93a46a089d6152f2a0e10d9dad6fe4e9.setContent(html_e70267be62175f74189478c08b04044f);
+            
+        
+
+        circle_marker_aa83dd49000790af74c549d5a754fe69.bindPopup(popup_93a46a089d6152f2a0e10d9dad6fe4e9)
+        ;
+
+        
+    
+    
+            var circle_marker_019e12d4fcc1e95a500f98b6df8e85c1 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_5154bee89134fc802e7a31a91e1d2a55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bca0acba70403f6569ded293108c3fd = $(`<div id="html_5bca0acba70403f6569ded293108c3fd" style="width: 100.0%; height: 100.0%;">Année : 1997<br>Événements : 2.0<br>Morts : 0</div>`)[0];
+                popup_5154bee89134fc802e7a31a91e1d2a55.setContent(html_5bca0acba70403f6569ded293108c3fd);
+            
+        
+
+        circle_marker_019e12d4fcc1e95a500f98b6df8e85c1.bindPopup(popup_5154bee89134fc802e7a31a91e1d2a55)
+        ;
+
+        
+    
+    
+            var circle_marker_97158c7244603162c5835a06f82e549c = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_19c5cb6d3d2961b2642fe767388853fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a53d79e870dab8e81424d0c34eae0460 = $(`<div id="html_a53d79e870dab8e81424d0c34eae0460" style="width: 100.0%; height: 100.0%;">Année : 1999<br>Événements : 1.0<br>Morts : 0</div>`)[0];
+                popup_19c5cb6d3d2961b2642fe767388853fa.setContent(html_a53d79e870dab8e81424d0c34eae0460);
+            
+        
+
+        circle_marker_97158c7244603162c5835a06f82e549c.bindPopup(popup_19c5cb6d3d2961b2642fe767388853fa)
+        ;
+
+        
+    
+    
+            var circle_marker_e6673b110b305eba7fe327b26e6bec9b = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_34522c18132dd4d173a73080d5e1d3ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_deea3872f3cd8e9302ff1a4e98029b0d = $(`<div id="html_deea3872f3cd8e9302ff1a4e98029b0d" style="width: 100.0%; height: 100.0%;">Année : 2003<br>Événements : 1.0<br>Morts : 5</div>`)[0];
+                popup_34522c18132dd4d173a73080d5e1d3ba.setContent(html_deea3872f3cd8e9302ff1a4e98029b0d);
+            
+        
+
+        circle_marker_e6673b110b305eba7fe327b26e6bec9b.bindPopup(popup_34522c18132dd4d173a73080d5e1d3ba)
+        ;
+
+        
+    
+    
+            var circle_marker_53999d878f976fe564c6a91c1072e300 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_feb5871acb42f6d6889ad27e0316c02a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fec04f9f1038bc64dda94a706eed96d8 = $(`<div id="html_fec04f9f1038bc64dda94a706eed96d8" style="width: 100.0%; height: 100.0%;">Année : 2005<br>Événements : 1.0<br>Morts : 2</div>`)[0];
+                popup_feb5871acb42f6d6889ad27e0316c02a.setContent(html_fec04f9f1038bc64dda94a706eed96d8);
+            
+        
+
+        circle_marker_53999d878f976fe564c6a91c1072e300.bindPopup(popup_feb5871acb42f6d6889ad27e0316c02a)
+        ;
+
+        
+    
+    
+            var circle_marker_aa7c4443745936de6d30760ac29afc52 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_fb31e8722f0ab3637a099d5fcbc24ff7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22498d55e9c281d32035e57c75ff9f9a = $(`<div id="html_22498d55e9c281d32035e57c75ff9f9a" style="width: 100.0%; height: 100.0%;">Année : 2009<br>Événements : 1.0<br>Morts : 0</div>`)[0];
+                popup_fb31e8722f0ab3637a099d5fcbc24ff7.setContent(html_22498d55e9c281d32035e57c75ff9f9a);
+            
+        
+
+        circle_marker_aa7c4443745936de6d30760ac29afc52.bindPopup(popup_fb31e8722f0ab3637a099d5fcbc24ff7)
+        ;
+
+        
+    
+    
+            var circle_marker_b32d0472b67aa7b0933e70868e9ea7ac = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_b6f5182fa1b19e8a5e6861c12665d858 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_670bc5271514873e562ec08c81d5e991 = $(`<div id="html_670bc5271514873e562ec08c81d5e991" style="width: 100.0%; height: 100.0%;">Année : 2017<br>Événements : 1.0<br>Morts : 0</div>`)[0];
+                popup_b6f5182fa1b19e8a5e6861c12665d858.setContent(html_670bc5271514873e562ec08c81d5e991);
+            
+        
+
+        circle_marker_b32d0472b67aa7b0933e70868e9ea7ac.bindPopup(popup_b6f5182fa1b19e8a5e6861c12665d858)
+        ;
+
+        
+    
+    
+            var circle_marker_f9bdb3cdd33c606848a312feef74c9b2 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_966a04c302e6beeaccb04bf8757c9f15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f71f0cdfc925778b8216bd2597c711c4 = $(`<div id="html_f71f0cdfc925778b8216bd2597c711c4" style="width: 100.0%; height: 100.0%;">Année : 2022<br>Événements : 1.0<br>Morts : 0</div>`)[0];
+                popup_966a04c302e6beeaccb04bf8757c9f15.setContent(html_f71f0cdfc925778b8216bd2597c711c4);
+            
+        
+
+        circle_marker_f9bdb3cdd33c606848a312feef74c9b2.bindPopup(popup_966a04c302e6beeaccb04bf8757c9f15)
+        ;
+
+        
+    
+    
+            var circle_marker_3c472b86f82bcb4d33515052dcf4aa6d = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_65f2a417569808f3e3b87b5e8f532d73);
+        
+    
+        var popup_6f3d74ccc975aebe3bbb236a90e513f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2812437cd3c93f1cbf8d3b88e9be6c2e = $(`<div id="html_2812437cd3c93f1cbf8d3b88e9be6c2e" style="width: 100.0%; height: 100.0%;">Année : 2023<br>Événements : 1.0<br>Morts : 0</div>`)[0];
+                popup_6f3d74ccc975aebe3bbb236a90e513f1.setContent(html_2812437cd3c93f1cbf8d3b88e9be6c2e);
+            
+        
+
+        circle_marker_3c472b86f82bcb4d33515052dcf4aa6d.bindPopup(popup_6f3d74ccc975aebe3bbb236a90e513f1)
+        ;
+
+        
+    
+</script>
+</html>
