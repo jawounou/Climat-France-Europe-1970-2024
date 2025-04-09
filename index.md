@@ -23,11 +23,11 @@ Ce projet vise à étudier les corrélations entre les anomalies de température
 - Licence : ODC-BY
 - Auteur : Jennifer AWOUNOU – ESAIP
 
-> Pour plus de détails, consultez la [fiche de métadonnées](metadata.md)
+> Pour plus de détails, consultez la [fiche de métadonnées](/TP3-CLIMAT-OPEN-DATA/Metadonne.md)
 """
 
 # Sauvegarde du nouveau fichier corrigé
-index_fixed_path = "/Users/jeniferawounou/TP3-CLIMAT-OPEN-DATA/index.md"
+index_fixed_path = "/TP3-CLIMAT-OPEN-DATA/index.md"
 with open(index_fixed_path, "w") as f:
     f.write(index_content_fixed)
 
