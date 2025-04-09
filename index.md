@@ -1,0 +1,34 @@
+# Réécriture du fichier index.md avec correction de chemins relatifs clairs
+index_content_fixed = """
+# 🌍 Évolution climatique France-Europe (1970–2024)
+
+Bienvenue sur cette page de présentation du projet TP3 sur l’impact du changement climatique en France.
+
+## 📁 Données disponibles
+- [📄 Jeu de données fusionné (CSV)](data/donnees_fusionnees_france.csv)
+- [📓 Notebook Jupyter complet](notebooks/TP3_AnalyseClimat_FR_EU.ipynb)
+- [📊 Visualisations PNG](figures/)
+
+## 📚 Objectif
+Ce projet vise à étudier les corrélations entre les anomalies de température et les catastrophes naturelles en France, à travers un traitement exploratoire, spatial et prédictif des données ouvertes.
+
+## 🧠 Méthodologie
+- Données : Berkeley Earth + EM-DAT
+- Fusion annuelle sur la période 1970–2024
+- Analyse statistique et corrélation
+- Scénarios prospectifs et solutions proposées
+
+## 🔎 Fiche technique
+- Format : CSV, HTML, Notebook
+- Licence : ODC-BY
+- Auteur : Viviane Agossou – ESAIP
+
+> Pour plus de détails, consultez la [fiche de métadonnées](metadata.md)
+"""
+
+# Sauvegarde du nouveau fichier corrigé
+index_fixed_path = "/mnt/data/index.md"
+with open(index_fixed_path, "w") as f:
+    f.write(index_content_fixed)
+
+index_fixed_path
