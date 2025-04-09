@@ -6,7 +6,7 @@ Bienvenue sur cette page de présentation du projet TP3 sur l’impact du change
 
 ## 📁 Données disponibles
 - [📄 Jeu de données fusionné (CSV)](/TP3-CLIMAT-OPEN-DATA/data/donnees_fusionnees_france.csv)
-- [📓 Notebook Jupyter complet](/Users/jeniferawounou/TP3-CLIMAT-OPEN-DATA)
+- [📓 Notebook Jupyter complet](TP3-CLIMAT-OPEN-DATA)
 - [📊 Visualisations PNG](figures/)
 
 ## 📚 Objectif
