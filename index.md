@@ -1,6 +1,6 @@
 # Réécriture du fichier index.md avec correction de chemins relatifs clairs
 index_content_fixed = """
-# 🌍 Évolution climatique France-Europe (1970–2024)
+# 🌍 Climat-France-Europe-1970–2024
 
 Bienvenue sur cette page de présentation du projet TP3 sur l’impact du changement climatique en France.
 
