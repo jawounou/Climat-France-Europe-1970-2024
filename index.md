@@ -22,6 +22,6 @@ Ce projet vise à étudier les corrélations entre les anomalies de température
 - Licence : ODC-BY
 - Auteur : Jennifer AWOUNOU – ESAIP
 
-> Pour plus de détails, consultez la [fiche de métadonnées](/TP3-CLIMAT-OPEN-DATA/Metadonne.md)
+> Pour plus de détails, consultez la [fiche de métadonnées](/TP3-CLIMAT-OPEN-DATA/Metadonne.md).
 
 
