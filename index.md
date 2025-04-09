@@ -1,5 +1,4 @@
-# Réécriture du fichier index.md avec correction de chemins relatifs clairs
-index_content_fixed = """
+
 # 🌍 Climat-France-Europe-1970–2024
 
 Bienvenue sur cette page de présentation du projet TP3 sur l’impact du changement climatique en France.
@@ -24,11 +23,5 @@ Ce projet vise à étudier les corrélations entre les anomalies de température
 - Auteur : Jennifer AWOUNOU – ESAIP
 
 > Pour plus de détails, consultez la [fiche de métadonnées](/TP3-CLIMAT-OPEN-DATA/Metadonne.md)
-"""
 
-# Sauvegarde du nouveau fichier corrigé
-index_fixed_path = "/TP3-CLIMAT-OPEN-DATA/index.md"
-with open(index_fixed_path, "w") as f:
-    f.write(index_content_fixed)
 
-index_fixed_path
