@@ -21,7 +21,7 @@ Ce projet vise à étudier les corrélations entre les anomalies de température
 ## 🔎 Fiche technique
 - Format : CSV, HTML, Notebook
 - Licence : ODC-BY
-- Auteur : Viviane Agossou – ESAIP
+- Auteur : Jennifer AWOUNOU – ESAIP
 
 > Pour plus de détails, consultez la [fiche de métadonnées](metadata.md)
 """
